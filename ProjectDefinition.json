@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/TP1/ProjectDefinition.json",
+  "title": "Test-Project1",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "TP1",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "6da496f5-75f1-4741-9999-a05c58e2e983",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_UtilityBill.json",
+      "title": "Utility Bill",
+      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+    },
+    {
+      "$ref": "CD_BillOfLading.json",
+      "title": "Bill of Lading",
+      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+    },
+    {
+      "$ref": "CD_Invoice.json",
+      "title": "Invoice",
+      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    }
+  ],
+  "ba_caDefinitions": "",
+  "ba_caProjectDescriptor": "e7ba5155-dadd-494c-ac20-1c9a32fead3d",
+  "ba_snapshotName": "",
+  "ba_versionId": ""
+}
